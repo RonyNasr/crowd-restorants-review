@@ -1,0 +1,30 @@
+.front-img img{
+  max-height: 860px;
+  width: 100%
+
+}
+
+a{
+  color:lightgrey;
+}
+
+footer {
+  position: absolute bottom;
+  text-align: center;
+}
+
+.my-nav{
+ color: lightgrey;
+}
+
+body{
+  padding-top: 50px;
+  color: lightgrey;
+   background: url("http://www.fellowshipbbc.org/wp-content/uploads/2013/06/burgundy-background-with-circles-and-incomplete-plus-signs.jpg") no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+.container{
+  min-height: 800px;
+}
