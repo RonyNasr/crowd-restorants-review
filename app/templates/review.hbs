@@ -1,0 +1,26 @@
+<div class="col-md-10 col-md-offset-1">
+  <h1>{{model.name}}</h1>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="thumbnail review-thumb">
+        <img src="{{model.photo}}" alt="{{model.name}}"/>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <h4>Cuisine:</h4>
+      <h5>&nbsp;&nbsp;&nbsp;&nbsp;{{model.cuisine}}</h5>
+      <h4>Cost: </h4>
+      <h5>&nbsp;&nbsp;&nbsp;&nbsp;{{cost-helper model}}</h5>
+      <h4>Cost: </h4>
+      <h5>&nbsp;&nbsp;&nbsp;&nbsp;{{model.description}}</h5>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    {{new-review restaurant=model}}
+  </div>
+  <div class="row">
+    <!-- {{#each restaurant.reviews as |review|}} {{review-tile review=review}} {{/each}}-->
+  </div>
+</div>

@@ -6,9 +6,7 @@
       <p>{{restaurant.cuisine}}</p>
       <p>${{restaurant.cost}}</p>
       <div class="add-review">
-        <!-- {{#link-to 'map' restaurant.id}} <i class="fa fa-map-marker fa-2x" aria-hidden="true" {{action 'showMap' restaurant}}></i> {{/link-to}} &nbsp;&nbsp;&nbsp;
-        {{#link-to 'shop.feedback' restaurant.id}} <button class="btn btn-info" >Feedback</button> {{/link-to}}-->
-        <button class="btn btn-warning" {{action 'addReview' restaurant}}>Review</button>
+        {{#link-to 'review' restaurant.id}}<button class="btn btn-warning">Review</button>{{/link-to}}
       </div>
     </div>
   </div>

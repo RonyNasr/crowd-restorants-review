@@ -2,15 +2,15 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'crowd-restaurants-review',
+    modulePrefix: 'mob-review',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
     firebase:{
       apiKey: "AIzaSyAPE7rS5bP1KYaREe2zicdzz7yvmRLTERM",
-      authDomain: "crowd-restaurants-review.firebaseapp.com",
-      databaseURL: "https://crowd-restaurants-review.firebaseio.com",
-      storageBucket: "crowd-restaurants-review.appspot.com",
+      authDomain: "mob-review.firebaseapp.com",
+      databaseURL: "https://mob-review.firebaseio.com",
+      storageBucket: "mob-review.appspot.com",
     },
     EmberENV: {
       FEATURES: {

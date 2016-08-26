@@ -37,5 +37,19 @@ body{
 
 .thumbnail{
   background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQf9-Ra5CCBLp5I886DjSEV253dJ-DIwA7CIxd3IAd9zycRV98O");
-  
+
+}
+
+.review-thumb{
+  height: 343px;
+  width:  auto;
+}
+
+.bottom{
+  text-align: center;
+}
+
+input, textarea{
+  background: lightgrey;
+  color: brown;
 }

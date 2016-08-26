@@ -28,10 +28,10 @@
           {{input value=photo id="photo"}}
         </div>
 
-        <button class="btn btn-default" {{action 'saveRestaurant' }}>Save</button>
+        <button class="btn btn-warning" {{action 'saveRestaurant' }}>Save</button>
       </form>
     </div>
   </div>
 {{else}}
-  <button {{action 'showRestaurantForm'}} class="btn btn-default">Add a Restaurant</button>
+  <button {{action 'showRestaurantForm'}} class="btn btn-warning">Add a Restaurant</button>
 {{/if}}
