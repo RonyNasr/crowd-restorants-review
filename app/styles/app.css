@@ -40,16 +40,38 @@ body{
 
 }
 
-.review-thumb{
-  height: 343px;
-  width:  auto;
-}
-
 .bottom{
   text-align: center;
 }
 
-input, textarea{
+input, textarea, .panel {
   background: lightgrey;
   color: brown;
+}
+
+.panel-heading {
+  background: darkgrey;
+  color: brown;
+}
+
+.time-row {
+  text-align: right;
+  padding-right: 50px;
+}
+
+.rating-input{
+  text-align: right;
+  padding-right: 50px;
+  margin-bottom: -20px;
+}
+
+.fav-glyph{
+  font-size:2em;
+  color: brown;
+  margin-right: 10px;
+  margin-bottom: -5px;
+}
+
+.fav-glyph:hover{
+  cursor: pointer;
 }

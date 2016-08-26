@@ -6,6 +6,11 @@
       <p>{{restaurant.cuisine}}</p>
       <p>${{restaurant.cost}}</p>
       <div class="add-review">
+        {{#if wishlist.isFavorite}}
+        <span  class="glyphicon glyphicon-heart fav-glyph" aria-hidden="true" {{action 'addToWishlist' restaurant}}>  </span>
+        {{else}}
+        <span class="glyphicon glyphicon-heart-empty fav-glyph" aria-hidden="true" {{action 'addToWishlist' restaurant}}>    </span>
+        {{/if}}
         {{#link-to 'review' restaurant.id}}<button class="btn btn-warning">Review</button>{{/link-to}}
       </div>
     </div>

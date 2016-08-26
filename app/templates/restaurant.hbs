@@ -1,5 +1,12 @@
 <div class="col-md-10 col-md-offset-1">
-  {{new-restaurant saveRestaurant="saveRestaurant"}}
+  <div class="row">
+    <div class="col-sm-8">
+      {{new-restaurant saveRestaurant="saveRestaurant"}}
+    </div>
+    <div class="col-sm-4">
+      {{display-wishlist whishlist=wishlist}}
+    </div>
+  </div>
   <hr>
   {{#each model as |restaurant|}}
     {{restaurant-tile restaurant=restaurant}}

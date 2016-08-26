@@ -7,5 +7,6 @@ export default DS.Model.extend({
   cost: DS.attr(),
   cuisine: DS.attr(),
   photo: DS.attr(),
+  listed: DS.attr(),
   reviews: DS.hasMany('review', {async:true})
 });

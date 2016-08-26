@@ -1,0 +1,17 @@
+<h1>{{restaurant.name}}</h1>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="thumbnail review-thumb">
+      <img src="{{restaurant.photo}}" alt="{{restaurant.name}}"/>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <h4>Cuisine:</h4>
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;{{restaurant.cuisine}}</h5>
+    <h4>Cost: </h4>
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;{{cost-helper restaurant}}</h5>
+    <h4>Description: </h4>
+    <h5>&nbsp;&nbsp;&nbsp;&nbsp;{{restaurant.description}}</h5>
+    <h4>Rating:  </h4>{{star-rating item=restaurant rating=avgRating}}
+  </div>
+</div>

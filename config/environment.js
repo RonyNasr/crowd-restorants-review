@@ -7,7 +7,7 @@ module.exports = function(environment) {
     rootURL: '/',
     locationType: 'auto',
     firebase:{
-      apiKey: "AIzaSyAPE7rS5bP1KYaREe2zicdzz7yvmRLTERM",
+      apiKey: "AIzaSyBF35TzsMf8zcEKeqU5001CvVA7hMmNSf8",
       authDomain: "mob-review.firebaseapp.com",
       databaseURL: "https://mob-review.firebaseio.com",
       storageBucket: "mob-review.appspot.com",

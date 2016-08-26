@@ -1,4 +1,9 @@
-// <blockquote>
-//   <p>{{review.author}}</p>
-//   <footer> {{review.content}} at {{review.time}}</footer>
-// </blockquote>
+import Ember from 'ember';
+
+export default Ember.Component.extend({
+  actions:{
+    deleteReview(review){
+      this.sendAction("deleteReview", review);
+    }
+  }
+});
