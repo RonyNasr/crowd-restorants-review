@@ -1,4 +1,4 @@
-<nav class="navbar  navbar-fixed-top my-nav">
+<nav class="navbar navbar-fixed-top my-nav">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -12,6 +12,7 @@
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         <li>{{#link-to "index"}}<a>Home</a>{{/link-to}}</li>
+        <li>{{#link-to "restaurant"}}<a>Restaurants</a>{{/link-to}}</li>
         <li>{{#link-to "about"}}<a>About Us</a>{{/link-to}}</li>
         <li>{{#link-to "contact"}}<a>Contact</a>{{/link-to}}</li>
 
@@ -19,12 +20,12 @@
     </div><!--/.nav-collapse -->
   </div>
 </nav>
-
-  <div class="row">
+<div class="row">
       {{outlet}}
-  </div>
-  <hr>
+</div>
+<div id="footer">
   <footer>
     {{#link-to 'about'}} About Us   |{{/link-to}}
     {{#link-to 'contact'}}   Contact Us {{/link-to}}
   </footer>
+</div>
